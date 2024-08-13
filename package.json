@@ -20,7 +20,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "react-scripts start",
-    "build": "tsc && npm run copy-css",
+    "build": "tsc && npm run clean-dist && npm run copy-css",
+    "clean-dist": "rm -rf dist/**/*.test.js dist/**/*.test.d.ts dist/setupTests.* dist/reportWebVitals.*",
     "copy-css": "cpx src/**/*.css dist/",
     "first:publishing": "npm run build && npm org set isagro && npm publish --access public",
     "publish:patch": "git add . && git commit -m \"patch\" && npm version patch && npm run build && npm publish --access public",
