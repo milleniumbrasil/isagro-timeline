@@ -2,7 +2,7 @@
 // src/App.tsx
 
 import React, { useState } from 'react';
-import StackedAreaChart from './components/StackedAreaChart';
+import Timeline from './components/Timeline';
 
 const App: React.FC = () => {
   const [chartType, setChartType] = useState<'Absoluto' | 'Media Móvel'>('Absoluto');
@@ -32,7 +32,7 @@ const App: React.FC = () => {
           </select>
         </label>
       </div>
-      <StackedAreaChart chartType={chartType} subsequenceRange={subsequenceRange} />
+      <Timeline chartType={chartType} subsequenceRange={subsequenceRange} />
     </div>
   );
 };

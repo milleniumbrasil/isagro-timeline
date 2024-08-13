@@ -1,5 +1,5 @@
 
-// src/components/StackedAreaChart.tsx 
+// src/components/Timeline.tsx 
 
 import React, { useEffect, useState } from 'react';
 import {
@@ -14,12 +14,12 @@ import {
 } from 'recharts';
 import { processData, calculateMMS, ProcessedDataItem } from '../utils/processData';
 
-interface StackedAreaChartProps {
+interface TimelineProps {
   chartType: 'Absoluto' | 'Media Móvel';
   subsequenceRange: number;
 }
 
-const StackedAreaChart: React.FC<StackedAreaChartProps> = ({ chartType, subsequenceRange }) => {
+const Timeline: React.FC<TimelineProps> = ({ chartType, subsequenceRange }) => {
   const [data, setData] = useState<ProcessedDataItem[]>([]);
   const [fonteKeys, setFonteKeys] = useState<string[]>([]);
 
@@ -76,4 +76,4 @@ const StackedAreaChart: React.FC<StackedAreaChartProps> = ({ chartType, subseque
   );
 };
 
-export default StackedAreaChart;
+export default Timeline;

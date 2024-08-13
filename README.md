@@ -7,23 +7,23 @@ Isagro-Timeline é um componente React para criar gráficos de área empilhada, 
 Este componente está disponível no [NPM](https://www.npmjs.com/package/isagro-timeline) e pode ser facilmente instalado via CLI:
 
 ```bash
-npm install isagro-timeline
+npm install isagro-timeline@latest
 ```
 
 ## Parâmetros
 
-O componente `StackedAreaChart` aceita os seguintes parâmetros:
+O componente `Timeline` aceita os seguintes parâmetros:
 
 - **`chartType`** (`'Absoluto' | 'Media Móvel'`): Define o tipo de gráfico a ser exibido. No modo 'Absoluto', o gráfico exibe os dados anuais, normalizados para percentuais. No modo 'Média Móvel', o gráfico exibe médias móveis com base no intervalo de anos informado.
 - **`subsequenceRange`** (`number`): Especifica o número de anos a serem considerados em cada subsequência. Este parâmetro é usado tanto no modo 'Absoluto' quanto no modo 'Média Móvel'.
 
 ## Exemplo de Uso
 
-Aqui está um exemplo básico de como utilizar o componente `StackedAreaChart` em um projeto React:
+Aqui está um exemplo básico de como utilizar o componente `Timeline` em um projeto React:
 
 ```jsx
 import React, { useState } from 'react';
-import StackedAreaChart from 'isagro-timeline';
+import Timeline from 'isagro-timeline';
 
 const App: React.FC = () => {
   const [chartType, setChartType] = useState<'Absoluto' | 'Media Móvel'>('Absoluto');
@@ -53,7 +53,7 @@ const App: React.FC = () => {
           </select>
         </label>
       </div>
-      <StackedAreaChart chartType={chartType} subsequenceRange={subsequenceRange} />
+      <Timeline chartType={chartType} subsequenceRange={subsequenceRange} />
     </div>
   );
 };
