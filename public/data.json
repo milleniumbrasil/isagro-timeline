@@ -1,0 +1,686 @@
+[
+    {
+        "geocodigo": 11,
+        "data": "1990-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 3901.5649837277
+    },
+    {
+        "geocodigo": 11,
+        "data": "1990-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 3.5339235136
+    },
+    {
+        "geocodigo": 11,
+        "data": "1990-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 132.8399390375
+    },
+    {
+        "geocodigo": 11,
+        "data": "1990-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 3.5754591627
+    },
+    {
+        "geocodigo": 11,
+        "data": "1991-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 5952.8028173964
+    },
+    {
+        "geocodigo": 11,
+        "data": "1991-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 3.658116795
+    },
+    {
+        "geocodigo": 11,
+        "data": "1991-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 210.9510328427
+    },
+    {
+        "geocodigo": 11,
+        "data": "1991-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 4.9005580997
+    },
+    {
+        "geocodigo": 11,
+        "data": "1992-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 5944.8282230978
+    },
+    {
+        "geocodigo": 11,
+        "data": "1992-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 7.6414381897
+    },
+    {
+        "geocodigo": 11,
+        "data": "1992-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 209.9926289919
+    },
+    {
+        "geocodigo": 11,
+        "data": "1992-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 4.9269083099
+    },
+    {
+        "geocodigo": 11,
+        "data": "1993-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 6861.7937103296
+    },
+    {
+        "geocodigo": 11,
+        "data": "1993-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 1.8768500193
+    },
+    {
+        "geocodigo": 11,
+        "data": "1993-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 245.5262556609
+    },
+    {
+        "geocodigo": 11,
+        "data": "1993-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 5.4963402949
+    },
+    {
+        "geocodigo": 11,
+        "data": "1994-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 7049.2905726239
+    },
+    {
+        "geocodigo": 11,
+        "data": "1994-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 3.8371677225
+    },
+    {
+        "geocodigo": 11,
+        "data": "1994-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 255.3666226747
+    },
+    {
+        "geocodigo": 11,
+        "data": "1994-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 5.4282397701
+    },
+    {
+        "geocodigo": 11,
+        "data": "1995-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 7891.77314662
+    },
+    {
+        "geocodigo": 11,
+        "data": "1995-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 5.9945600507
+    },
+    {
+        "geocodigo": 11,
+        "data": "1995-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 287.7541986618
+    },
+    {
+        "geocodigo": 11,
+        "data": "1995-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 5.9449690796
+    },
+    {
+        "geocodigo": 11,
+        "data": "1996-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 7362.3439722067
+    },
+    {
+        "geocodigo": 11,
+        "data": "1996-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 4.6607896042
+    },
+    {
+        "geocodigo": 11,
+        "data": "1996-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 266.4434914957
+    },
+    {
+        "geocodigo": 11,
+        "data": "1996-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 5.6850640684
+    },
+    {
+        "geocodigo": 11,
+        "data": "1997-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 8011.4475159632
+    },
+    {
+        "geocodigo": 11,
+        "data": "1997-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 6.7623283332
+    },
+    {
+        "geocodigo": 11,
+        "data": "1997-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 291.0680615655
+    },
+    {
+        "geocodigo": 11,
+        "data": "1997-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 6.1040512734
+    },
+    {
+        "geocodigo": 11,
+        "data": "1998-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 9393.9591951889
+    },
+    {
+        "geocodigo": 11,
+        "data": "1998-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 6.2681414301
+    },
+    {
+        "geocodigo": 11,
+        "data": "1998-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 342.8447361173
+    },
+    {
+        "geocodigo": 11,
+        "data": "1998-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 7.0579083719
+    },
+    {
+        "geocodigo": 11,
+        "data": "1999-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 10063.2602882385
+    },
+    {
+        "geocodigo": 11,
+        "data": "1999-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 9.7362358192
+    },
+    {
+        "geocodigo": 11,
+        "data": "1999-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 367.4899945748
+    },
+    {
+        "geocodigo": 11,
+        "data": "1999-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 7.5362392463
+    },
+    {
+        "geocodigo": 11,
+        "data": "2000-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 10453.1451234151
+    },
+    {
+        "geocodigo": 11,
+        "data": "2000-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 12.4664852997
+    },
+    {
+        "geocodigo": 11,
+        "data": "2000-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 381.3688817525
+    },
+    {
+        "geocodigo": 11,
+        "data": "2000-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 7.8449423268
+    },
+    {
+        "geocodigo": 11,
+        "data": "2001-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 12175.1374035808
+    },
+    {
+        "geocodigo": 11,
+        "data": "2001-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 11.1374874259
+    },
+    {
+        "geocodigo": 11,
+        "data": "2001-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 447.6640570087
+    },
+    {
+        "geocodigo": 11,
+        "data": "2001-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 8.9130797386
+    },
+    {
+        "geocodigo": 11,
+        "data": "2002-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 14156.2747881408
+    },
+    {
+        "geocodigo": 11,
+        "data": "2002-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 11.764788357
+    },
+    {
+        "geocodigo": 11,
+        "data": "2002-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 518.8669676315
+    },
+    {
+        "geocodigo": 11,
+        "data": "2002-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 10.4783989662
+    },
+    {
+        "geocodigo": 11,
+        "data": "2003-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 16452.5870275217
+    },
+    {
+        "geocodigo": 11,
+        "data": "2003-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 19.1234872752
+    },
+    {
+        "geocodigo": 11,
+        "data": "2003-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 603.1567407146
+    },
+    {
+        "geocodigo": 11,
+        "data": "2003-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 12.1521676943
+    },
+    {
+        "geocodigo": 11,
+        "data": "2004-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 18574.6725712885
+    },
+    {
+        "geocodigo": 11,
+        "data": "2004-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 14.0757156547
+    },
+    {
+        "geocodigo": 11,
+        "data": "2004-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 682.9240574355
+    },
+    {
+        "geocodigo": 11,
+        "data": "2004-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 13.6102956435
+    },
+    {
+        "geocodigo": 11,
+        "data": "2005-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 19584.9762629991
+    },
+    {
+        "geocodigo": 11,
+        "data": "2005-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 49.1904451934
+    },
+    {
+        "geocodigo": 11,
+        "data": "2005-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 719.5453502274
+    },
+    {
+        "geocodigo": 11,
+        "data": "2005-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 14.2752692356
+    },
+    {
+        "geocodigo": 11,
+        "data": "2006-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 19750.9787879037
+    },
+    {
+        "geocodigo": 11,
+        "data": "2006-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 42.8370388603
+    },
+    {
+        "geocodigo": 11,
+        "data": "2006-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 726.0951088743
+    },
+    {
+        "geocodigo": 11,
+        "data": "2006-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 14.3875627828
+    },
+    {
+        "geocodigo": 11,
+        "data": "2007-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 18704.8501228748
+    },
+    {
+        "geocodigo": 11,
+        "data": "2007-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 70.0232984786
+    },
+    {
+        "geocodigo": 11,
+        "data": "2007-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 678.7109057542
+    },
+    {
+        "geocodigo": 11,
+        "data": "2007-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 14.135154205
+    },
+    {
+        "geocodigo": 11,
+        "data": "2008-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 19037.8249730759
+    },
+    {
+        "geocodigo": 11,
+        "data": "2008-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 83.5523014906
+    },
+    {
+        "geocodigo": 11,
+        "data": "2008-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 690.4117570865
+    },
+    {
+        "geocodigo": 11,
+        "data": "2008-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 14.3729863638
+    },
+    {
+        "geocodigo": 11,
+        "data": "2009-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 19744.0192805055
+    },
+    {
+        "geocodigo": 11,
+        "data": "2009-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 39.1285299218
+    },
+    {
+        "geocodigo": 11,
+        "data": "2009-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 717.2273437993
+    },
+    {
+        "geocodigo": 11,
+        "data": "2009-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 14.9777952606
+    },
+    {
+        "geocodigo": 11,
+        "data": "2010-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 20367.5476663913
+    },
+    {
+        "geocodigo": 11,
+        "data": "2010-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 83.7230808188
+    },
+    {
+        "geocodigo": 11,
+        "data": "2010-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 739.2917325866
+    },
+    {
+        "geocodigo": 11,
+        "data": "2010-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 15.3506393589
+    },
+    {
+        "geocodigo": 11,
+        "data": "2011-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 20350.4162070387
+    },
+    {
+        "geocodigo": 11,
+        "data": "2011-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 156.6237964494
+    },
+    {
+        "geocodigo": 11,
+        "data": "2011-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 731.3881173951
+    },
+    {
+        "geocodigo": 11,
+        "data": "2011-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 15.5956191784
+    },
+    {
+        "geocodigo": 11,
+        "data": "2012-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 20566.6010017105
+    },
+    {
+        "geocodigo": 11,
+        "data": "2012-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 190.2300097182
+    },
+    {
+        "geocodigo": 11,
+        "data": "2012-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 740.0477412429
+    },
+    {
+        "geocodigo": 11,
+        "data": "2012-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 15.5979626642
+    },
+    {
+        "geocodigo": 11,
+        "data": "2013-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 20552.5457832599
+    },
+    {
+        "geocodigo": 11,
+        "data": "2013-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 138.0942138211
+    },
+    {
+        "geocodigo": 11,
+        "data": "2013-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 744.9536914936
+    },
+    {
+        "geocodigo": 11,
+        "data": "2013-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 15.3884646712
+    },
+    {
+        "geocodigo": 11,
+        "data": "2014-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 21330.8413918865
+    },
+    {
+        "geocodigo": 11,
+        "data": "2014-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 155.732880911
+    },
+    {
+        "geocodigo": 11,
+        "data": "2014-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 770.5990919264
+    },
+    {
+        "geocodigo": 11,
+        "data": "2014-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 16.1049276791
+    },
+    {
+        "geocodigo": 11,
+        "data": "2015-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 22357.579115548
+    },
+    {
+        "geocodigo": 11,
+        "data": "2015-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 61.6222823138
+    },
+    {
+        "geocodigo": 11,
+        "data": "2015-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 813.3173842531
+    },
+    {
+        "geocodigo": 11,
+        "data": "2015-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 16.8267476255
+    },
+    {
+        "geocodigo": 11,
+        "data": "2016-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 22823.4628562831
+    },
+    {
+        "geocodigo": 11,
+        "data": "2016-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 102.8703593504
+    },
+    {
+        "geocodigo": 11,
+        "data": "2016-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 829.5107911576
+    },
+    {
+        "geocodigo": 11,
+        "data": "2016-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 17.0995673633
+    },
+    {
+        "geocodigo": 12,
+        "data": "1990-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 872.0496988304
+    },
+    {
+        "geocodigo": 12,
+        "data": "1990-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 0.6957219368
+    },
+    {
+        "geocodigo": 12,
+        "data": "1990-01-01T00:00:00",
+        "fonte": "Emissão de CH4",
+        "valor": 29.8304874206
+    },
+    {
+        "geocodigo": 12,
+        "data": "1990-01-01T00:00:00",
+        "fonte": "Emissão de N2O",
+        "valor": 0.790044326
+    },
+    {
+        "geocodigo": 12,
+        "data": "1991-01-01T00:00:00",
+        "fonte": "Emissão de CO2e",
+        "valor": 885.6048768387
+    },
+    {
+        "geocodigo": 12,
+        "data": "1991-01-01T00:00:00",
+        "fonte": "Emissão de CO2",
+        "valor": 0.8587241229
+    }
+]
