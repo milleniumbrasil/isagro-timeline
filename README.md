@@ -14,8 +14,18 @@ npm install isagro-timeline@latest
 
 O componente `Timeline` aceita os seguintes parâmetros:
 
+- **`data`**: Um array de objetos contendo os dados a serem exibidos. Cada objeto deve seguir a estrutura:
+  ```typescript
+  interface DataItem {
+    geocodigo: number;
+    data: string;
+    fonte: string;
+    valor: number;
+  }
+  ```
 - **`chartType`** (`'Absoluto' | 'Media Móvel'`): Define o tipo de gráfico a ser exibido. No modo 'Absoluto', o gráfico exibe os dados anuais, normalizados para percentuais. No modo 'Média Móvel', o gráfico exibe médias móveis com base no intervalo de anos informado.
 - **`subsequenceRange`** (`number`): Especifica o número de anos a serem considerados em cada subsequência. Este parâmetro é usado tanto no modo 'Absoluto' quanto no modo 'Média Móvel'.
+- **`fonteKeys`** (`string[]`): Um array de strings que define quais chaves (fontes) serão usadas para renderizar as áreas no gráfico.
 
 ## Exemplo de Uso
 
@@ -28,6 +38,10 @@ import Timeline from 'isagro-timeline';
 const App: React.FC = () => {
   const [chartType, setChartType] = useState<'Absoluto' | 'Media Móvel'>('Absoluto');
   const [subsequenceRange, setSubsequenceRange] = useState<number>(1);
+  const data = [
+    // Dados de exemplo
+  ];
+  const fonteKeys = ['Emissão de CO2e', 'Emissão de CO2', 'Emissão de CH4', 'Emissão de N2O'];
 
   return (
     <div>
@@ -53,7 +67,7 @@ const App: React.FC = () => {
           </select>
         </label>
       </div>
-      <Timeline chartType={chartType} subsequenceRange={subsequenceRange} />
+      <Timeline data={data} fonteKeys={fonteKeys} chartType={chartType} subsequenceRange={subsequenceRange} />
     </div>
   );
 };
@@ -84,8 +98,7 @@ O componente espera um array de objetos JSON como entrada de dados, com o seguin
     "data": "1991-01-01T00:00:00",
     "fonte": "Emissão de CH4",
     "valor": 132.8399390375
-  },
-  ...
+  }
 ]
 ```
 
