@@ -15,32 +15,13 @@ import {
 import { processData, calculateMMS, ProcessedDataItem } from '../utils/processData';
 
 interface TimelineProps {
+  data: ProcessedDataItem[];
+  fonteKeys: string[];
   chartType: 'Absoluto' | 'Media Móvel';
   subsequenceRange: number;
 }
 
-const Timeline: React.FC<TimelineProps> = ({ chartType, subsequenceRange }) => {
-  const [data, setData] = useState<ProcessedDataItem[]>([]);
-  const [fonteKeys, setFonteKeys] = useState<string[]>([]);
-
-  useEffect(() => {
-    fetch('data.json')
-      .then((response) => response.json())
-      .then((jsonData) => {
-        let finalData;
-
-        if (chartType === 'Media Móvel') {
-          finalData = calculateMMS(jsonData, subsequenceRange);
-        } else {
-          const { processedData, fontes } = processData(jsonData, subsequenceRange);
-          finalData = processedData;
-          setFonteKeys(fontes);
-        }
-
-        setData(finalData);
-      })
-      .catch((error) => console.error('Error loading data:', error));
-  }, [chartType, subsequenceRange]);
+const Timeline: React.FC<TimelineProps> = ({ data, fonteKeys, chartType, subsequenceRange }) => {
 
   const colors = ["#8884d8", "#82ca9d", "#ffc658", "#ff8042"]; // Colors for the areas
 

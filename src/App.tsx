@@ -1,12 +1,34 @@
 
 // src/App.tsx
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Timeline from './components/Timeline';
+import { calculateMMS, processData, ProcessedDataItem } from './utils/processData';
 
 const App: React.FC = () => {
   const [chartType, setChartType] = useState<'Absoluto' | 'Media Móvel'>('Absoluto');
   const [subsequenceRange, setSubsequenceRange] = useState<number>(1);
+  const [data, setData] = useState<ProcessedDataItem[]>([]);
+  const [fonteKeys, setFonteKeys] = useState<string[]>([]);
+
+  useEffect(() => {
+    fetch('data.json')
+      .then((response) => response.json())
+      .then((jsonData) => {
+        let finalData;
+
+        if (chartType === 'Media Móvel') {
+          finalData = calculateMMS(jsonData, subsequenceRange);
+        } else {
+          const { processedData, fontes } = processData(jsonData, subsequenceRange);
+          finalData = processedData;
+          setFonteKeys(fontes);
+        }
+
+        setData(finalData);
+      })
+      .catch((error) => console.error('Error loading data:', error));
+  }, [chartType, subsequenceRange]);
 
   return (
     <div>
@@ -32,7 +54,7 @@ const App: React.FC = () => {
           </select>
         </label>
       </div>
-      <Timeline chartType={chartType} subsequenceRange={subsequenceRange} />
+      <Timeline data={data} fonteKeys={fonteKeys} chartType={chartType} subsequenceRange={subsequenceRange} />
     </div>
   );
 };
